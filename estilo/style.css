@@ -12,13 +12,40 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    padding-top: 50px;
-    height: 150px;
     }
     header > h1{
-        
+        padding-top: 50px;
+        font-variant: small-caps;
     }
-header > a{
+    header > p{
+        padding-bottom: 50px;
+    }
+header > p > a, footer > a{
     color: white;
+    font-weight: bolder;
+    
+    }
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+    }
+    section.normal{
+        background-color: white;
+        color: black;
+    }
+    section.imagem{
+        background-color: rgb(51,51,51);
+        color: white;
+    }
+    section.imagem > p{
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.253);
+    }
+    footer{
+        background-color: black;
+        text-align: center;
+        color: white;
     }
 
